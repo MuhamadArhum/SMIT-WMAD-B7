@@ -1,2 +1,0 @@
-Assignment Guide
-This is Simple Web page using HTML and CSS only.
