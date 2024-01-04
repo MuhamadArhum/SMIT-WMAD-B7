@@ -3,34 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umair's Cuisine</title>
-    
-    <!-- style of Home Page-->
+    <title>Contact Us</title>
+
+    <!-- style of Contact Us Page-->
     <style>
         .Header{
             width: 400px;
             height: 150px;
             margin-left: 400px;
         }
-
-        .main1{
-            width: 150px;
-            height: 120px;
-            margin-left: 380px;
-        }
-        
-        .main2{
-            width: 150px;
-            height: 120px;
-            margin-left: 0px;
-        }
-        
-        .main3{
-            width: 150px;
-            height: 120px;
-            margin-left: 0px;
-        }
-
         .button1{
             color: blueviolet;
             background-color:transparent;
@@ -58,21 +39,17 @@
             background-color:transparent;
             border: none;
         }
-        .button6{
-            margin-left:550px ;
+        .p1{
+            text-align: center;
         }
-
-        p{
-            margin-left: 475px;
+        form{
+            text-align: center;
         }
         .footer{
             margin-left: 480px;
         }
-
     </style>
 </head>
-
-
 <body>
     <img class="Header"src="D:\SMIT Course\SMIT-Web-and-Mobile-Batch7\Assignments\assignment-1\Assets\Heading.png">
     <br><br>
@@ -86,17 +63,27 @@
     <button class="button5"><a href="contactus.html"> Contact Us </a></button>
 
     <hr>
-    <br><br>
-    <p><b>We Serve Delicious Fast Food Items </b></p>
+    <h2>
+    <p class="p1"><b> Contact Us </b></p>
+    </h2>
 
-    <img class="main1" src="D:\SMIT Course\SMIT-Web-and-Mobile-Batch7\Assignments\assignment-1\Assets\burger1.jpg">
-    <img class="main2" src="D:\SMIT Course\SMIT-Web-and-Mobile-Batch7\Assignments\assignment-1\Assets\pizaa1.jpg">
-    <img class="main3" src="D:\SMIT Course\SMIT-Web-and-Mobile-Batch7\Assignments\assignment-1\Assets\burger.jpg">
+    <!-- Inputs and Labels for Users -->
+    <form>
+    <label>Name:</label>
+    <input class="input1" type="name"><br><br>
+
+    <label>Email:</label>
+    <input class="input2" type="email"><br><br>
+
+    <input class="input3" value="Enter Your Message">
+
     <br><br>
-    <button class="button6"> Let See Our Menu </button>
-    <hr>
+    <button class="send-button">Send Message</button>
+    </form>
+
 
     <!-- CopyRight Line -->
+    <hr>
     <footer>
         <p class="footer"> &copy; 2024 Umair's Cuisine. All rights reserved.</p>
     </footer>
