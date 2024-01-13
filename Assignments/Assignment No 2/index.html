@@ -8,10 +8,30 @@
         body{
             background-color:azure;
         }
+        a{
+            margin-left: 1000px;
+        }
         input{
             padding-top: 10px;
             padding-bottom: 10px;
-            padding-right: 260px;
+            padding-right: 300px;
+        }
+        textarea{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 300px;
+        }
+        .submit-button{
+            background-color: darkslategray;
+            color: azure;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color:yellow;
+            margin-left: 380px;
         }
     </style>
 </head>
@@ -20,49 +40,48 @@
         <center>
         <h2 style="color: darkblue;"><b>Student Registration Form</b></h2>
         </center>
-        <a href="Timings.html">Check Class Timings</a>
+        <a href="Timings.html" style="color: chocolate;">Check Class Timings</a>
     </header>
     <main>
 <!-- Registration Form / Inputs Section -->
 
 <form>
     <label for="fname">First Name:</label>
-    <input name="fname" type="text" placeholder="Enter Your First Name"><br><br>
+    <input name="fname" type="text" placeholder="Enter Your First Name" style="margin-left: 133px;"><br><br>
 
     <label for="lname">Last Name:</label>
-    <input name="lname" type="text" placeholder="Enter Your Last Name"><br><br>
+    <input name="lname" type="text" placeholder="Enter Your Last Name" style="margin-left: 135px;"><br><br>
 
     <label for="email">Email:</label>
-    <input name="email" type="email" placeholder="it should contain @...."><br><br>
+    <input name="email" type="email" placeholder="it should contain @...." style="margin-left: 167px;"><br><br>
     
     <label for="mobile">Mobile:</label>
-    <input name="mobile" type="text" placeholder="Only 10 numbers are Allowed"><br><br>
+    <input name="mobile" type="text" placeholder="Only 10 numbers are Allowed" style="margin-left: 159px;"><br><br>
 
     <label for="gender">Gender:</label>
-    <input name="gender" type="radio" value="Male"><label>Male</label>
+    <input name="gender" type="radio" value="Male" style="margin-left: 163px;"><label>Male</label>
     <input name="gender" type="radio" value="Female"><label>Female</label><br><br>
 
-    <div>
-        <label for="dob">Date of Birth:</label>
-        <textarea name="dob" >mm/dd/yy</textarea><br><br>
-    </div>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" style="margin-left: 122px;"><br><br>
 
     <label for="address">Address:</label>
-    <textarea></textarea><br><br>
+    <textarea style="margin-left: 153px;"></textarea><br><br>
 
     
     <label for="city">City:</label>
-    <input name="city" type="text"><br><br>
+    <input name="city" type="text" style="margin-left: 178px;"><br><br>
 
     <label for="area">Area Pin:</label>
-    <input name="area" type="text"><br><br>
+    <input name="area" type="text" style="margin-left: 149px;"><br><br>
 
     <label for="state">State:</label>
-    <input name="state" type="text"><br><br>
+    <input name="state" type="text" style="margin-left: 174px;"><br><br>
 
 
-    <label>Qualification:</label>
-    <select>
+    <label for="Qualification">Qualification:</label>
+    <select name="Qualification" style="margin-left: 123px;">
+        <option selected>Select Qualification</option>
         <option>Matric</option>
         <option>Intermediate</option>
         <option>Master's</option>
@@ -71,17 +90,17 @@
 
 
     <legend>Specilization:</legend>
-            <input name="Specilization" id="cs" type="checkbox"><lable>Computer Science</lable><br><br>
-            <input name="Specilization" id="it" type="checkbox"><lable>Information Technology</lable><br><br>
-            <input name="Specilization" id="math" type="checkbox"><lable>Mathematics</lable><br><br>
-            <input name="Specilization" id="tc" type="checkbox"><lable>Tele Communication</lable><br><br>
+            <input name="Specilization" id="cs" type="checkbox" style="margin-left: 217px;"><lable>Computer Science</lable><br>
+            <input name="Specilization" id="it" type="checkbox" style="margin-left: 217px;"><lable>Information Technology</lable><br>
+            <input name="Specilization" id="math" type="checkbox" style="margin-left: 217px;"><lable>Mathematics</lable><br>
+            <input name="Specilization" id="tc" type="checkbox" style="margin-left: 217px;"><lable>Tele Communication</lable><br><br>
     
     
     <label>Password:</label>
-    <input name="Password" id="pw" type="text"><br><br>
+    <input type="Password" id="pw" type="text" style="margin-left: 151px;"><br><br>
 
 
-    <button type="submit">Registered</button>
+    <button class="submit-button" type="submit">Registered</button>
 </form>
 
     </main>
