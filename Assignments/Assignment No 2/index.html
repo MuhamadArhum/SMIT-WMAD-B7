@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            background-color:azure;
+        }
+        input{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 260px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+        <h2 style="color: darkblue;"><b>Student Registration Form</b></h2>
+        </center>
+        <a href="Timings.html">Check Class Timings</a>
+    </header>
+    <main>
+<!-- Registration Form / Inputs Section -->
+
+<form>
+    <label for="fname">First Name:</label>
+    <input name="fname" type="text" placeholder="Enter Your First Name"><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input name="lname" type="text" placeholder="Enter Your Last Name"><br><br>
+
+    <label for="email">Email:</label>
+    <input name="email" type="email" placeholder="it should contain @...."><br><br>
+    
+    <label for="mobile">Mobile:</label>
+    <input name="mobile" type="text" placeholder="Only 10 numbers are Allowed"><br><br>
+
+    <label for="gender">Gender:</label>
+    <input name="gender" type="radio" value="Male"><label>Male</label>
+    <input name="gender" type="radio" value="Female"><label>Female</label><br><br>
+
+    <div>
+        <label for="dob">Date of Birth:</label>
+        <textarea name="dob" >mm/dd/yy</textarea><br><br>
+    </div>
+
+    <label for="address">Address:</label>
+    <textarea></textarea><br><br>
+
+    
+    <label for="city">City:</label>
+    <input name="city" type="text"><br><br>
+
+    <label for="area">Area Pin:</label>
+    <input name="area" type="text"><br><br>
+
+    <label for="state">State:</label>
+    <input name="state" type="text"><br><br>
+
+
+    <label>Qualification:</label>
+    <select>
+        <option>Matric</option>
+        <option>Intermediate</option>
+        <option>Master's</option>
+        <option>P.hd</option>
+    </select><br><br>
+
+
+    <legend>Specilization:</legend>
+            <input name="Specilization" id="cs" type="checkbox"><lable>Computer Science</lable><br><br>
+            <input name="Specilization" id="it" type="checkbox"><lable>Information Technology</lable><br><br>
+            <input name="Specilization" id="math" type="checkbox"><lable>Mathematics</lable><br><br>
+            <input name="Specilization" id="tc" type="checkbox"><lable>Tele Communication</lable><br><br>
+    
+    
+    <label>Password:</label>
+    <input name="Password" id="pw" type="text"><br><br>
+
+
+    <button type="submit">Registered</button>
+</form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
