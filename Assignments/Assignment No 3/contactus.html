@@ -9,7 +9,12 @@
     <!-- style of Contact Us Page-->
     <style>
         body{
-            background-color: rgb(44, 43, 43);
+            background-image: url(".//assets/pexels-photo-192318.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        p{
+            margin: 30px;
         }
         .Header-Name{
             color: rgb(240, 161, 59);
@@ -27,6 +32,9 @@
         }
         .Description{
             color: white;
+        }
+        #input1,#input2,#input3{
+            padding: 10px 40px;
         }
         .send-button{
             border: 3px;
@@ -48,11 +56,11 @@
     
         <!-- Buttons -->
         <hr>
-        <button class="main-buttons"><a href="index.html"> Home </a></button>
-        <button class="main-buttons"><a href="Menu.html"> Menu </a></button>
-        <button class="main-buttons"><a href="aboutus.html"> About Us </a></button>
-        <button class="main-buttons"><a href="Timings.html"> Timings </a></button>
-        <button class="main-buttons"><a href="contactus.html"> Contact Us </a></button>
+        <a href="index.html"><button class="main-buttons">Home</button></a>
+        <a href="Menu.html"><button class="main-buttons">Menu</button></a>
+        <a href="aboutus.html"><button class="main-buttons">About Us</button></a>
+        <a href="Timings.html"><button class="main-buttons">Timings</button></a>
+        <a href="contactus.html"><button class="main-buttons">Contact Us</button></a>
     
         <hr>
         <h2>
@@ -62,10 +70,13 @@
         <!-- Inputs and Labels for Users -->
         <form>
         <label class="Description">Name: </label>
-        <input class="input1" type="name"><br><br>
+        <input type="name" id="input1" placeholder="Enter Your Name"><br><br>
     
         <label class="Description">Email: </label>
-        <input class="input2" type="email"><br><br>
+        <input type="email" id="input2" placeholder="Enter Your Email"><br><br>
+
+        <label class="Description">Phone No:</label>
+        <input type="text" id="input3" placeholder="Enter Your Phone No"><br><br>
     
         <textarea>Enter Your Message Here</textarea>
     
