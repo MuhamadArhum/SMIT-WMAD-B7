@@ -1,0 +1,6 @@
+This is a Simple Todo App.
+
+........
+This App have some Functionality (create and delete) with the help of JS.
+This App will Save 1st Todo List Content then Automatically Create Input Section for 2nd Todo Text where user
+can type his/her todo Tasks or Working Schedule. 
