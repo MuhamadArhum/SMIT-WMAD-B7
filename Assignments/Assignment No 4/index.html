@@ -11,21 +11,24 @@
 <body>
     <!-- Header Section -->
     <header>
-        <nav>
-            <span>
-                <img id="main-logo" src="./images/logo.png">
-                <h2 id="main-title">TROPIKO</h2>
-            </span>
-
-            <span>
-                <button class="nav-buttons" id="home-button">Home</button>
-                <button class="nav-buttons" id="fruit-button">Fruits</button>
-                <button class="nav-buttons" id="services-button">Services</button>
-                <button class="nav-buttons" id="contact-button">Contact Us</button>
-                <button class="nav-buttons" id="search-button"><img src="./images/search-icon.png"></button>
-                <button class="nav-buttons" id="get-button">GET A QUOTE</button>
-            </span>
-        </nav>
+        <section id="Home-Section">
+            <nav>
+                <span>
+                    <img id="main-logo" src="./images/logo.png">
+                    <h2 id="main-title">TROPIKO</h2>
+                </span>
+    
+                <span>
+                    <a href="#Home-Section"><button class="nav-buttons" id="home-button">Home</button></a>
+                    <a href="#Fruit-Section"><button class="nav-buttons" id="fruit-button">Fruits</button></a>
+                    <a href="#Service-Section"><button class="nav-buttons" id="services-button">Services</button></a>
+                    <a><button class="nav-buttons" id="contact-button">Contact Us</button></a>
+                    <a><button class="nav-buttons" id="search-button"><img src="./images/search-icon.png"></button></a>
+                    <a href="#Testimonial-Section"><button class="nav-buttons" id="get-button">GET A QUOTE</button></a>
+                </span>
+            </nav>
+        </section>
+        
     </header>
 
     <!-- Main Section -->
@@ -43,41 +46,59 @@
             </span>
                 
             <br><br><br><br>
-        <div>
-            
-        <p id="p1">Our Services</p>
-        <p id="p2">There are many variations of passages of Lorem ipsum is availaible, but the majority is </p>
+    <section id="Service-Section">
+        <div> 
+            <p class="center-content" id="p1">Our Services</p>
+            <p class="center-content" id="p2">There are many variations of passages of Lorem ipsum is availaible, but the majority is </p>
         </div>
-
-        <span id="card1"><img src="./images/card-item-1.png"><p class="card-description">Orange</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids.</p></span>
-        <span id="card2"><img src="./images/card-item-2.png"><p class="card-description">Grapes</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids.</p></span>
-        <span id="card3"><img src="./images/card-item-3.png"><p class="card-description">Guava</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of.....</p></span>
-             
+    
+            <span id="card1"><img src="./images/card-item-1.png"><p class="card-description">Orange</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids.</p></span>
+            <span id="card2"><img src="./images/card-item-2.png"><p class="card-description">Grapes</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids.</p></span>
+            <span id="card3"><img src="./images/card-item-3.png"><p class="card-description">Guava</p><p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of.....</p></span>
+    </section>
+        
+    <section id="Fruit-Section">
         <div>
             <center><button id="read-more">Read More</button></center> 
-            <p id="p3">Fresh Fruits</p>
-            <p id="p4">There are many variations of passages of Lorem ipsum is availaible, but the majority is</p>
+            <p class="center-content" id="p3">Fresh Fruits</p>
+            <p class="center-content" id="p4">There are many variations of passages of Lorem ipsum is availaible, but the majority is</p>
         </div>
 
         <span>
             <p class="buy-fruits">Best Fresh Orange</p>
             <p class="buy-description">the majority of people have suffered alteration in some form, by injected humor, or randomized<br> words which don't look even slightly believable. It also talks about how if you are going to use <br> a passage of Lorem Ipsum, you need to be.</p>
-            <img class="fruits-image" src="./images/orange.png">
-            <button>Buy Now</button>
+            <img id="buy-pic1" src="./images/orange.png">
+            <button class="buy-button">Buy Now</button>
         </span>
         <span>
             <p class="buy-fruits">Best Fresh Grapes</p>
             <p class="buy-description">the majority of people have suffered alteration in some form, by injected humor, or randomized<br> words which don't look even slightly believable. It also talks about how if you are going to use <br> a passage of Lorem Ipsum, you need to be.</p>
-            <img class="fruits-image" src="./images/grapes.png">
-            <button>Buy Now</button>
+            <img id="buy-pic2" src="./images/grapes.png">
+            <button class="buy-button">Buy Now</button>
         </span>
         <span>
             <p class="buy-fruits">Best Fresh Guava</p>
             <p class="buy-description">the majority of people have suffered alteration in some form, by injected humor, or randomized<br> words which don't look even slightly believable. It also talks about how if you are going to use <br> a passage of Lorem Ipsum, you need to be.</p>
-            <img class="fruits-image" src="./images/gauva.png">
-            <button>Buy Now< <br> b tton>
+            <img id="buy-pic3" src="./images/gauva.png">
+            <button class="buy-button">Buy Now</button>
         </span>
-
+    </section>      
+        
+<section id="Testimonial-Section">
+    <div>
+        <p class="center-content" id="p5">Testimonial</p>
+        <p class="center-content" id="p6">There are many variations of passages of Lorem ipsum is availaible, but the majority is</p>
+    </div>
+    <div>
+        <img id="client-pic" src="./images/client.png">
+        <p class="center-content" id="p7">JohnNex</p>
+        <p class="center-content" id="p8">There are many variations of passages of Lorem ipsum is availaible, but the majority have suffered alteration in some form, bu injected humor<br>
+        a randomized words which don't take look even slightly believable.If you are<br>
+        going to use a passage of lorem lipsum,you Need to be sure 
+        </p>
+    </div>
+</section>
+        
     </main>
 
     <!-- Footer Section -->

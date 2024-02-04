@@ -1,12 +1,12 @@
 #main-logo{
     width: 3%;
-    display: inline-block;
+    display:inline-flex;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 #main-title{
-    display: inline-block;
-    margin-right: 220px;
+    display:inline-flex;
+    margin-right: 260px;
 }
 .nav-buttons{
     border: none;
@@ -68,14 +68,14 @@
     padding:  10px 15px;
     cursor: pointer;
 }
-#p1{
+.center-content{
     text-align: center;
+    margin-top: 5px;
+}
+#p1,#p3,#p5,#p7{
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0;
-}
-#p2{
-    text-align: center;
+    margin:0;
 }
 #card1,#card2,#card3{
   display: inline-block;
@@ -103,30 +103,48 @@
     border: none;
     padding:  10px 15px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
-#p3{
-    text-align: center;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 50px;
-}
-#p4{
-    text-align: center;
-    margin-top: -25px;
-}
-.fruits-image{
+
+#buy-pic1{
+    position: absolute;
+    left: 65%;
+    top: 180%;
     width: 15%;
-    position:absolute;
-    left: 60%;
-    top: 20%;
+}
+#buy-pic2{
+    position: absolute;
+    left: 70%;
+    top: 210%;
+    width: 6%;
+}
+#buy-pic3{
+    position: absolute;
+    left: 65%;
+    top: 245%;
+    width: 13%;
 }
 .buy-fruits{
     font-size: xx-large;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 .buy-description{
     font-size: medium;
-    margin-left: 30px;
+    margin-left: 100px;
+}
+.buy-button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding:  10px 15px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+#client-pic{
+    width: 30%;
+    margin-left: 440px;
 }
 footer{
     background-color:gainsboro;
