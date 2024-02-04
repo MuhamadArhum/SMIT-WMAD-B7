@@ -146,6 +146,18 @@
     width: 30%;
     margin-left: 440px;
 }
+#dish-pic{
+    width: 20%;
+}
+.inputs{
+    border-bottom: 2px solid darkgray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
 footer{
     background-color:gainsboro;
     padding: 5px 10px;
