@@ -175,8 +175,17 @@
     border: none;
     border-radius: 8px;
     padding: 10px 25px;
-    margin: 20px  0 200px  80px;
+    margin: 20px  0 200px  60px;
     cursor: pointer;
+}
+#reset-button{
+    color:white;
+    background-color:black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin-right: -45px;
+    margin-left: 40px;
 }
 /* Lists Sections with Follow Section */
 .list-content{
@@ -210,6 +219,19 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     margin-bottom: 0;
+}
+/* Menu.HTML page Style */
+#menu-back{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color:white;
+    padding: 10px 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 /* Footer Section */
 footer{
