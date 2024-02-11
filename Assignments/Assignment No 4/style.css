@@ -1,13 +1,15 @@
 /* Header Section */
 #main-logo{
     width: 3%;
-    display: inline-flex;
+    display: inline-block;
     margin-left: 60px;
+    vertical-align: middle;
 }
 #main-title{
     display:inline-block;
     margin-left: 8px;
     margin-right: 150px;
+    vertical-align: top;
 }
 .nav-buttons{
     border: none;
@@ -22,7 +24,6 @@
     display: inline-block;
     width: 20px;
     margin-right: 50px;
-    cursor:pointer;
 }
 #get-button{
     color: aliceblue;
