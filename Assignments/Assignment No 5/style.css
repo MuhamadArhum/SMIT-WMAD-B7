@@ -3,7 +3,6 @@
 /* Background Color for all Pages */
 body {
     background-color: #0a192f;
-    width: 100%;
 }
 
 /* Navigation Bar */
@@ -20,18 +19,43 @@ body {
     display: flex;
 }
 
-/* Main Text */
-#main-text {
-    display: contents;
-    color: #64ffda;
+#p1{
+    font-size:140%;
+    color:#64ffda;
+    font-family: SF Mono;
+}
+#p2{
+    font-size: 340%;
+    color:#ccd6f6;
+    font-family: Calibri;
+}
+#p3{
+    font-size: 200%;
+    color:#8892b0;
+    font-family: Segoe UI;
+}
+#p4{
+    font-size: 130%;
+    color: #8892b0;
+    font-family: Segoe UI;
 }
 
+#about-p1{
+    color:#ccd6f6;
+    font-size: 180%;
+    font-family: Segoe UI;
+}
+#about-p2{
+    color: #8892b0;
+    font-size: 130%;
+    font-family: Segoe UI;
+}
 /* Responsive Design */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #navbar {
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin: 20px 0;
     }
-} */
+}
