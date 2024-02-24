@@ -4,20 +4,68 @@
 body {
     background-color: #0a192f;
 }
+main{
+    position: absolute;
+    left: 10%;
+}
+/* Logo */
+#logo {
+    width: 10%;
+    max-width: 100%;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
 
 /* Navigation Bar */
 #navbar {
     color: #e5e7eb;
-    display: inline-block;
-    z-index: auto;
-    left: 90%;
-    margin: 20px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
-/* Logo */
-#logo {
-    display: flex;
+#navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
 }
+
+#navbar a:hover {
+    color: #64ffda;
+}
+
+#resume-button{
+    border: 2px;
+    border-radius: 8px;
+    border-color: #64ffda;
+    border-style: solid;
+    background-color: #0a192f;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+#get-in-touch{
+    border-color: #64ffda;
+    background-color:#0a192f;
+    color: #64ffda;
+    border-radius: 8px;
+    border: 2px;
+    border-style: solid;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#get-in-touch:hover{
+    color: #ccd6f6;
+}
+
 
 #p1{
     font-size:140%;
@@ -40,6 +88,7 @@ body {
     font-family: Segoe UI;
 }
 
+
 #about-p1{
     color:#ccd6f6;
     font-size: 180%;
@@ -50,6 +99,77 @@ body {
     font-size: 130%;
     font-family: Segoe UI;
 }
+#about-pic {
+    border: 2px;
+    border-radius: 8px;
+    border-color: #64ffda;
+    border-style: ridge;
+    width: 38%;
+}
+#about-pic:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+#github-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 55%; /* Adjust the top position as needed */
+}
+
+#twitter-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 62%; /* Adjust the top position as needed */
+}
+
+#linkedin-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 69%; /* Adjust the top position as needed */
+}
+
+#instagram-icon {
+    color: #8892b0;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    top: 76%; /* Adjust the top position as needed */
+}
+
+#github-icon:hover,
+#twitter-icon:hover,
+#linkedin-icon:hover,
+#instagram-icon:hover {
+    color: #64ffda; /* Change to your desired hover color */
+}
+
+#email-link{
+    color: #8892b0;
+    font-size: 20px;
+    position: fixed;
+    left: 85%;
+    top: 70%;
+    transform:rotate(90deg);
+    
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     #navbar {

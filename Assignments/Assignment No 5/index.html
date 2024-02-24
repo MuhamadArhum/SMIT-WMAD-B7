@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/logo.png">
+    <script src="https://kit.fontawesome.com/a50374430a.js" crossorigin="anonymous"></script>
+
     <title>Muhamad Arhum</title>
 </head>
 <body>
@@ -13,15 +15,15 @@
             <nav>
                 <div class="container">
                     <span id="logo">
-                        <img id="logo-pic" src="./assets/logo.png">
+                        <a href="index.html"><img id="logo-pic" src="./assets/logo.png"></a>
                     </span>
                     <span id="navbar">
-                        <a>About</a>
-                        <a>Experience</a>
-                        <a>Work</a>
-                        <a>Contact</a>
-                        <a>Blog</a>
-                        <a>Resume</a>
+                        <a href="#about-section">About</a>
+                        <a href="#experience-section">Experience</a>
+                        <a href="#work-section">Work</a>
+                        <a href="#contact-section">Contact</a>
+                        <a href="#blog-section">Blog</a>
+                        <button id="resume-button"><a>Resume</a></button>
                     </span>
                 </div>
             </nav>
@@ -46,38 +48,45 @@
           </div>
 
         <!-- About Section  -->
-        <section id="about">
-            <p id="about-p1">About Me</p>
-            <P id="about-p2">
-                Hello! I'm Arhum, a full stack software engineer based in Faisalabad, PK.<br><br>
-                I specialize in developing robust web and mobile applications using the<br> 
-                MERN Stack and React Native. I bring a diverse background, having worked <br>
-                both collaboratively in teams and independently as a freelancer,<br>
-                accumulating valuable experiences along the way.<br><br>
+        <section id="about-section">
+            <div id="about-div">
+                <p id="about-p1">About Me</p>
+                <P id="about-p2">
+                    Hello! I'm Arhum, a full stack software engineer based in Faisalabad, PK.<br><br>
+                    I specialize in developing robust web and mobile applications using the<br> 
+                    MERN Stack and React Native. I bring a diverse background, having worked <br>
+                    both collaboratively in teams and independently as a freelancer,<br>
+                    accumulating valuable experiences along the way.<br><br>
+    
+                    As a tech trainee at the Saylani Welfare Mass Training.<br>
+                    I am still undergraduate student at the Virtual Univeristy of Pakistan<br>
+                    will be graduate in June, 2026.<br><br>
+    
+                    I aim to pursue a PhD in the United States to advance in technology<br>
+                    research and innovation.<br><br>
+    
+                    Here are a few technologies I've been working with recently:<br>
+                </P>
+            </div>
 
-                As a tech trainee at the Saylani Welfare Mass Training.<br>
-                I am still undergraduate student at the Virtual Univeristy of Pakistan<br>
-                will be graduate in June, 2026.<br><br>
-
-                I aim to pursue a PhD in the United States to advance in technology<br>
-                research and innovation.<br><br>
-
-                Here are a few technologies I've been working with recently:<br>
-            </P>
+    
+                <img id="about-pic" src="./assets/1688311828869.jpg">
+           
+            
         </section>
 
         <!-- Experience Section -->
         
-        <section id="experience"></section>
+        <section id="experience-section"></section>
 
         <!-- Work Section -->
-        <section id="work"></section>
+        <section id="work-section"></section>
 
         <!-- Contact Section -->
-        <section id="contact"></section>
+        <section id="contact-section"></section>
 
         <!-- Blog Section -->
-        <section id="blog"></section>
+        <section id="blog-section"></section>
 
         <!-- Resume Section -->
         <section id="resume"></section>
@@ -85,13 +94,14 @@
 
     <!-- Footer Section -->
     <footer>
-        <div class="social-icon">
-            <i class="fa-brands fa-github"><a href="https://github.com/MuhamadArhum"></a></i>
-            <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/muhamad-arhum-5423aa198/"></a></i>
-            <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/muhamad_arhum/"></a></i>
-            <i class="fa-brands fa-twitter"></i>
-
+        <div class="social-icons">
+            <a href="https://github.com/MuhamadArhum"><i class="fab fa-github" id="github-icon"></i></a>
+            <a href="https://www.linkedin.com/in/muhamad-arhum-5423aa198/"><i class="fa-brands fa-linkedin" id="linkedin-icon"></i></a>
+            <a href=""><i class="fa-brands fa-twitter" id="twitter-icon"></i></a>
+            <a href="https://www.instagram.com/muhamad_arhum/"><i class="fa-brands fa-instagram" id="instagram-icon"></i></a>
+            <a id="email-link">muhamadrhum425@gmail.com</a>
         </div>
+        
     </footer>
 </body>
 </html>
