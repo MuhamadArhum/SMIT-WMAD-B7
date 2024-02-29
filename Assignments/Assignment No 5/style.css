@@ -6,6 +6,7 @@ body {
 }
 main{
     position: absolute;
+    width: 70%;
     left: 10%;
 }
 /* Logo */
@@ -14,7 +15,7 @@ main{
     max-width: 100%;
     position: relative;
     top: 10px;
-    left: 60px;
+    left: 45px;
 }
 
 /* Navigation Bar */
@@ -71,16 +72,19 @@ main{
     font-size:140%;
     color:#64ffda;
     font-family: SF Mono;
+    margin-top: 6%;
 }
 #p2{
     font-size: 340%;
     color:#ccd6f6;
     font-family: Calibri;
+    margin-top: 0%;
 }
 #p3{
     font-size: 200%;
     color:#8892b0;
     font-family: Segoe UI;
+    margin-top: -5%;
 }
 #p4{
     font-size: 130%;
@@ -93,6 +97,7 @@ main{
     color:#ccd6f6;
     font-size: 180%;
     font-family: Segoe UI;
+    margin-top: 100px;
 }
 #about-p2{
     color: #8892b0;
@@ -105,12 +110,22 @@ main{
     border-color: #64ffda;
     border-style: ridge;
     width: 38%;
+    position: absolute;
+    top: 47%;
+    left: 80%;
 }
 #about-pic:hover{
     cursor: pointer;
 }
 a{
     text-decoration: none;
+}
+
+#smit-link{
+    color: #64ffda;
+}
+#vu-link{
+    color: #64ffda;
 }
 
 #github-icon {
@@ -123,7 +138,7 @@ a{
     top: 55%; /* Adjust the top position as needed */
 }
 
-#twitter-icon {
+#facebook-icon {
     color: #8892b0;
     font-size: 25px;
     margin: 5px;
@@ -153,8 +168,27 @@ a{
     top: 76%; /* Adjust the top position as needed */
 }
 
+#hr-line1{
+    width: 10%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 93%;
+    left: -32px;
+}
+#hr-line2{
+    width: 5%;
+    color: #8892b0;
+    position: fixed;
+    margin: 5px;
+    transform: rotate(90deg);
+    top: 95%;
+    left: 92%;
+}
+
 #github-icon:hover,
-#twitter-icon:hover,
+#facebook-icon:hover,
 #linkedin-icon:hover,
 #instagram-icon:hover {
     color: #64ffda; /* Change to your desired hover color */
@@ -165,17 +199,46 @@ a{
     font-size: 20px;
     position: fixed;
     left: 85%;
-    top: 70%;
+    top: 65%;
     transform:rotate(90deg);
+    cursor: pointer;
     
 }
+#email-link:hover{
+    color:#64ffda;
+}
+
+#about-list1{    
+    color: #8892b0;
+    font-family: Calibri;
+    font-size: 140%;
+    display: inline-block;
+    list-style-type:circle;
+}
+
+#about-list2{    
+    color: #8892b0;
+    font-family: Calibri;
+    font-size: 140%;
+    display: inline-block;
+    list-style-type:circle;
+}
+.experience-main{
+    color:#ccd6f6;
+    font-size: 180%;
+    font-family: Segoe UI;
+    margin-top: 100px;
+}
+
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #navbar {
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin: 20px 0;
     }
-}
+} */
+
+
