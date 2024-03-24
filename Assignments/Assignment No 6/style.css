@@ -102,4 +102,55 @@ span{
 .nav-cart i{
     font-size: 1.2rem;
 }
-/* Stoppedat 50 minutes */
+
+
+/* Pannel CSS */
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.pannel-opps p{
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-opps{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.pannel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero-section{
+    background-image: url(./71Ie3JXGfVL._SX3000_.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+
+/* Shop Section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color: white;
+
+}
+/* Lecture Stopped At 1H:15MIN:02   */
+
