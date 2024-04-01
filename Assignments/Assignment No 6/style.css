@@ -207,3 +207,39 @@ ul a{
     margin-top: 10px;
     color: #dddddd;
 }
+
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px white solid;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.foot-pannel4{
+    background-color:#222f3d;
+    color: white;
+    height: 85px;
+
+}
+
+.pages{
+    font-size: 0.85rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 5px;
+}
