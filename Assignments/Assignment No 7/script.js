@@ -89,7 +89,7 @@
 
 // Problem No 6
 // function isLeapYear(year) {
-//     if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//     if (year % 4 === 0) {
 //         return true;
 //     } else {
 //         return false;
@@ -101,6 +101,61 @@
 //     console.log(year + " is a leap year.");
 // } else {
 //     console.log(year + " is not a leap year.");
+// }
+
+
+
+
+// Problem No 7
+// function checkVowelorConsonant(char) {
+//     char = char.toLowerCase();
+
+//     if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+//         return char + " is a vowel.";
+//     }
+
+//     else if ((char >= 'a' && char <= 'z') && !(char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u')) {
+//         return char + " is a consonant.";
+//     }
+
+//     else {
+//         return "Please enter a valid alphabet character.";
+//     }
+// }
+
+// let alphabet = prompt("Enter any alphabet: ");
+
+// if (alphabet.length === 1) {
+
+//     console.log(checkVowelorConsonant(alphabet));
+// } 
+// else {
+//     console.log("Please enter only a single character.");
+// }
+
+
+
+
+// Problem No 8
+// function checkUpperCaseorLowerCase(char) {
+
+//     if (char >= 'A' && char <= 'Z') {
+//         return char + " is an uppercase alphabet.";
+//     }
+//     else if (char >= 'a' && char <= 'z') {
+//         return char + " is a lowercase alphabet.";
+//     }
+//     else {
+//         return "Please enter an alphabet character.";
+//     }
+// }
+
+// let character = prompt("Enter any character: ");
+
+// if (character.length === 1) {
+//     console.log(checkUpperCaseorLowerCase(character));
+// } else {
+//     console.log("Please enter only a single character.");
 // }
 
 
@@ -203,28 +258,28 @@
 
 
 // Problem No 14
-function calculateElectricityBill(units){
-    var totalBill = 0;
+// function calculateElectricityBill(units){
+//     var totalBill = 0;
 
-    if (units <= 50) {
-        totalBill = units * 5;
-    } else if (units <= 150) {
-        totalBill = (50 * 5) + ((units - 50) * 5);
-    } else if (units <= 250) {
-        totalBill = (50 * 5) + (100 * 7) + ((units - 150) * 10);
-    } else {
-        totalBill = (50 * 5) + (100 * 7) + (100 * 10) + ((units - 250) * 15);
-    }
+//     if (units <= 50) {
+//         totalBill = units * 5;
+//     } else if (units <= 150) {
+//         totalBill = (50 * 5) + ((units - 50) * 5);
+//     } else if (units <= 250) {
+//         totalBill = (50 * 5) + (100 * 7) + ((units - 150) * 10);
+//     } else {
+//         totalBill = (50 * 5) + (100 * 7) + (100 * 10) + ((units - 250) * 15);
+//     }
 
-    // Add 20% surcharge
-    totalBill *= 1.20;
+// Add 20% surcharge
+//     totalBill *= 1.20;
 
-    return totalBill;
-}
+//     return totalBill;
+// }
 
-let units = prompt("Enter Consumed Units");
-let result = calculateElectricityBill(units);
+// let units = prompt("Enter Consumed Units");
+// let result = calculateElectricityBill(units);
 
-console.log("Here Your total Bill: " + result);
+// console.log("Here Your total Bill: " + result);
 
 
