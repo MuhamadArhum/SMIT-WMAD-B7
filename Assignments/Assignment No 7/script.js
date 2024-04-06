@@ -162,31 +162,31 @@
 
 
 // Problem No 11
-// function countNotes(amount) {
-//     var denominations = [1000, 500, 200, 100, 50, 20, 10, 5, 1];
+function countNotes(amount) {
+    var denominations = [1000, 500, 200, 100, 50, 20, 10, 5, 1];
     
-//     var count = {};
-//     for (var i = 0; i < denominations.length; i++) {
-//         var noteCount = Math.floor(amount / denominations[i]);
-//         count[denominations[i]] = noteCount;
+    var count = {};
+    for (var i = 0; i < denominations.length; i++) {
+        var noteCount = Math.floor(amount / denominations[i]);
+        count[denominations[i]] = noteCount;
         
-//         amount %= denominations[i];
-//     }
+        amount %= denominations[i];
+    }
 
-//     console.log("Minimum number of notes:");
-//     for (var denomination in count) {
-//         if (count.hasOwnProperty(denomination) && count[denomination] !== 0) {
-//             console.log(denomination + " : " + count[denomination]);
-//         }
-//     }
-// }
+    console.log("Minimum number of notes:");
+    for (var denomination in count) {
+        if (count.hasOwnProperty(denomination) && count[denomination] !== 0) {
+            console.log(denomination + " : " + count[denomination]);
+        }
+    }
+}
 
-// var amount = parseInt(prompt("Enter the amount:"));
-// if (!isNaN(amount)) {
-//     countNotes(amount);
-// } else {
-//     console.log("Invalid input. Please enter a valid amount.");
-// }
+var amount = parseInt(prompt("Enter the amount:"));
+if (!isNaN(amount)) {
+    countNotes(amount);
+} else {
+    console.log("Invalid input. Please enter a valid amount.");
+}
 
 
 
@@ -271,7 +271,7 @@
 //         totalBill = (50 * 5) + (100 * 7) + (100 * 10) + ((units - 250) * 15);
 //     }
 
-// Add 20% surcharge
+// // Add 20% surcharge
 //     totalBill *= 1.20;
 
 //     return totalBill;
