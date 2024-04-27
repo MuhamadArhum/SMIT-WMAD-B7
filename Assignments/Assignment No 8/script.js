@@ -169,7 +169,7 @@
 // }
 
 
-// Problem No 12
+// Problem no 12
 // function binarySearch(arr, target) {
 //     let left = 0;
 //     let right = arr.length - 1;
