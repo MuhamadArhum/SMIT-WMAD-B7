@@ -3,23 +3,48 @@
 
 
 // a: Return the length of the String.
-function calculateLength(completeName){
+// function calculateLength(completeName){
 
-    return completeName.length;
-}
+//     return completeName.length;
+// }
 
-let firstName = prompt("Enter Your First Name")
-let secondName = prompt("Enter Your Second Name")
+// let firstName = prompt("Enter Your First Name")
+// let secondName = prompt("Enter Your Second Name")
 
-var completeName = (firstName + secondName);
-console.log(calculateLength(completeName));
-
-
+// var completeName = (firstName +" "+ secondName);
+// console.log(calculateLength(completeName));
 
 
 
-// b: Concatenate two Strings together.
+
+
+// b: Concatenate two Strings together. 
+// function concatTwoString(bigString){
+//     return bigString;
+// }
+
+// let str1 = "Hi there,";
+// let str2 = "I'm Arhum Waheed";
+// const bigString = (str1 + str2);
+// console.log(concatTwoString(bigString));
+
+
+
 // c: Determine if a Given String is empty.
+// function checkEmptyorNot(str){
+//     if(str.length === 0){
+//         console.log("String is Empty.");
+//     }
+//     else{
+//         console.log("String is Not Empty.");
+//     }
+
+// }
+
+// let str = "abceds";
+// checkEmptyorNot(str);
+
+
 // d: Count the number of vowels in a string.
 // e: Reverse a given string.
 // f: Check if a string is a palindrome.
