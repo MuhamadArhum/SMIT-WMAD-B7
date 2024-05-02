@@ -83,8 +83,28 @@
 
 
 // f: Check if a string is a palindrome.
+// function isPalindrome(str){
 
+//     let start = 0;
+//     let end = str.length - 1;
 
+//     str = str.toLowerCase();
+
+//     while(start < end){
+//         if(str[start] !== str[end]){
+//             return false;
+//         }
+
+//         start++;
+//         end--;
+
+//     }
+//     return true;
+// }
+
+// console.log(isPalindrome("DAD"));
+// console.log(isPalindrome("Racecar"));
+// console.log(isPalindrome("Aple"));
 
 
 
@@ -103,12 +123,19 @@
 
 
 
-
-
 // h: Find the first occurrence of a given character in a string.
+// function checkFirstOccurance(str,char){
 
+//     for(let i=0; i<str.length; i++){
+//         if(str[i] === char){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
 
-
+// console.log(checkFirstOccurance("Toyota","y"));
+// console.log(checkFirstOccurance("Hello", "e"));
 
 
 
@@ -118,12 +145,15 @@
 
 
 
-
-
 // j: Trim leading and trailing whitespace from a string.
+// function trimWhiteSpace(str){
 
+//     return str.trim();
+// }
 
-
+// console.log(trimWhiteSpace("      Hello Everyone     "));
+// console.log(trimWhiteSpace("      Hi There     "));
+// console.log(trimWhiteSpace("    Arhum Waheed    "));
 
 
 
@@ -141,6 +171,18 @@
 
 
 // l: Check if a string contains only numeric characters.
+// function checkNumericChar(str) {
+
+//     for (let i = 0; i < str.length; i++) {
+//         if (isNaN(parseInt(str[i]))) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// console.log(checkNumericChar("12345"));
+// console.log(checkNumericChar("12345a"));
 
 
 
