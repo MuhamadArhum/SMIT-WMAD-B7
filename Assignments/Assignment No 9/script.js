@@ -141,6 +141,18 @@
 
 
 // i: Replace all occurrences of a given character in a string with another character.
+// function replaceChar(inputString, oldChar, newChar) {
+
+//     var modifiedString = inputString.replace(new RegExp(oldChar, 'g'), newChar);
+//     return modifiedString;
+// }
+
+// var originalString = "Faisalabad";
+// var oldCharacter = "s";
+// var newCharacter = "z";
+// var modifiedString = replaceChar(originalString, oldCharacter, newCharacter);
+// console.log(modifiedString);
+
 
 
 
@@ -166,7 +178,6 @@
 // }
 // const str = "Hi there,This Function is used to count the words in GIven String"; 
 // console.log("The Number of Words in this String is:" + countWords(str));
-
 
 
 
@@ -219,7 +230,25 @@
 
 
 // o: Convert a string into title case (the first letter of each word capitalized).
+// function toProperCase(str) {
+    
+//     var words = str.toLowerCase().split(' ');
 
+    
+//     for (var i = 0; i < words.length; i++) {
+//         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+//     }
+  
+//     var titleCaseStr = words.join(' ');
+
+//     return titleCaseStr;
+// }
+
+
+// var inputString = "hello world";
+// var titleCaseString = toProperCase(inputString);
+
+// console.log(titleCaseString);
 
 
 
