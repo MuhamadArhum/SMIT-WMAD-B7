@@ -258,17 +258,30 @@
 
 
 // p: Remove all non-alphabetic characters from a string.
+// function removeNonAlphabetic(str) {
+//     let result = '';
+//     for (let i = 0; i < str.length; i++) {
+//         let charCode = str.charCodeAt(i);
 
+//         if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+//             result += str[i];
+//         }
+//     }
+//     return result;
+// }
 
-
-
+// let inputString = "Hello! How are you?";
+// let result = removeNonAlphabetic(inputString);
+// console.log(result);
 
 
 
 
 
 // q: Check if a string is a valid palindrome permutation (ignoring spaces).
+function isValidPalindrmoe(){
 
+}
 
 
 
@@ -278,6 +291,9 @@
 
 
 // r: Check if a string is an anagram of another string.
+function isAnagram(){
+
+}
 
 
 
@@ -288,9 +304,28 @@
 
 
 // s: Find the longest word in a string.
+function findLongestWord(str) {
 
+    let words = str.split(/\s+/);
+    
+    let longestWord = '';
+    let maxLength = 0;
+    
+    for (let word of words) {
 
+        let cleanedWord = word.replace(/[^A-Za-z0-9]/g, '');
+        
+        if (cleanedWord.length > maxLength) {
+            longestWord = cleanedWord;
+            maxLength = cleanedWord.length;
+        }
+    }
+    
+    return longestWord;
+}
 
+let inputString = "This is a string containing several words, including 'longest' and 'word'.";
+console.log(findLongestWord(inputString));
 
 
 
