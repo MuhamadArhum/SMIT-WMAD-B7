@@ -2,16 +2,16 @@
 
 
 // a: Return the length of the String.
-function calculateLength(completeName){
+// function calculateLength(completeName){
 
-    return completeName.length;
-}
+//     return completeName.length;
+// }
 
-let firstName = prompt("Enter Your First Name")
-let secondName = prompt("Enter Your Second Name")
+// let firstName = prompt("Enter Your First Name")
+// let secondName = prompt("Enter Your Second Name")
 
-var completeName = (firstName +" "+ secondName);
-console.log(calculateLength(completeName));
+// var completeName = (firstName +" "+ secondName);
+// console.log(calculateLength(completeName));
 
 
 
