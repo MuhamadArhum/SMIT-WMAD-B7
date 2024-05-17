@@ -46,10 +46,50 @@ var num = [1,2,3,4];
 // console.log(num.join("*"));
 // console.log(num.splice(2,3,"i","p"));This will also check.
 // console.log(num.slice(1,2));
+// console.log(num.sort());
  
 
 
 
 // JS Numbers (All Methods of Numbers).
+var pi = 3.14123;
+
+// Test Cases:
+// console.log(pi.toFixed(0));
+// console.log(pi.toFixed(2));
+// console.log(pi.toFixed(4));
+// console.log(pi.toPrecision(2));
+// console.log(pi.valueOf());
+// console.log(Number(true));
+// console.log(Number(new Date()));
+// console.log(parseInt("18 Months"));
+// console.log(parseFloat("3.5 Days"));
+// console.log(Number.MAX_VALUE);
+// console.log(Number.MIN_VALUE);
+// console.log(Number.NEGATIVE_INFINITY);
+// console.log(Number.POSITIVE_INFINITY);
+
+
+
+
 
 // JS Math (All Methods of Math).
+var pi = Math.PI;
+
+// Test Cases:
+// console.log(pi);
+// console.log(Math.round(4.4));
+// console.log(Math.round(4.5));
+// console.log(Math.pow(2,8));
+// console.log(Math.sqrt(64));
+// console.log(Math.abs(-3.14));
+// console.log(Math.ceil(3.14));
+// console.log(Math.floor(3.99));
+// console.log(Math.sin(0));
+// console.log(Math.cos(Math.PI));
+// console.log(Math.min(0,12,-1,-3));
+// console.log(Math.max(0,12,-1,-3));
+// console.log(Math.log(1));
+// console.log(Math.exp(1));
+// console.log(Math.random());
+
