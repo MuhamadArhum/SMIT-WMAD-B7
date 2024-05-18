@@ -28,5 +28,28 @@ console.log("The Updated Age of Person is:"+ person.age);
 person.address = 'Faisalabad';
 console.log("The Address of the Person is:" + person.address);
 
+  
+const car = {
+    make: 'Toyota',
+    model: 'Corolla',
+    year: 2021,
+    color: 'blue'
+};
 
+// Using for...in
+for (const key in car) {
+    if (car.hasOwnProperty(key)) {
+        console.log(`${key}: ${car[key]}`);
+    }
+}
+
+// Using Object.keys and forEach
+Object.keys(car).forEach(key => {
+    console.log(`${key}: ${car[key]}`);
+});
+
+// Using Object.entries and forEach
+Object.entries(car).forEach(([key, value]) => {
+    console.log(`${key}: ${value}`);
+});
 
