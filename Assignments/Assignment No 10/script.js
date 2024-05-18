@@ -29,27 +29,36 @@ person.address = 'Faisalabad';
 console.log("The Address of the Person is:" + person.address);
 
   
-const car = {
-    make: 'Toyota',
-    model: 'Corolla',
-    year: 2021,
-    color: 'blue'
-};
+// Task No 4
+// const car = {
+//     make: 'Toyota',
+//     model: 'Corolla',
+//     year: 2021,
+//     color: 'blue'
+// };
 
-// Using for...in
-for (const key in car) {
-    if (car.hasOwnProperty(key)) {
-        console.log(`${key}: ${car[key]}`);
-    }
-}
 
-// Using Object.keys and forEach
-Object.keys(car).forEach(key => {
-    console.log(`${key}: ${car[key]}`);
-});
+// for(const key in car){
+//     if(car.hasOwnProperty(key)){
+//         console.log(key, ":" , car[key]);
+//     }
+// }
 
-// Using Object.entries and forEach
-Object.entries(car).forEach(([key, value]) => {
-    console.log(`${key}: ${value}`);
-});
 
+
+
+// To Convert Object Key into String
+// const car = {
+//     make: 'Toyota',
+//     model: 'Corolla',
+//     year: 2021,
+//     color: 'blue'
+// };
+
+// for(const key in car){
+//     if(car.hasOwnProperty(key)){
+//         car[key] = car[key].toString().toUpperCase()
+//     }
+// }
+
+// console.log(car);
