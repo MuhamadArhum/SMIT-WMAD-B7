@@ -17,3 +17,8 @@ function resetColor(){
 function changeColor3(){
     document.getElementById('Button3').style.color = 'Yellow';
 }
+
+// Change Color On Mouse Click.
+function changeColor4(){
+    document.getElementById('Button4').style.color = 'Red';
+}
