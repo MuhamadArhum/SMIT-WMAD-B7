@@ -9,17 +9,18 @@
 <body>
 
 
-<!-- How TO change BG Color with the help of JS. -->
+<!-- How To change BG Color with the help of JS. -->
 
 <!-- inline JS -->
-    <br>
-    <button onmouseover="changeColor()" onmouseout="resetColor()">Click For Change</button>
-    <!-- <script>
-        function changeColor(){
-            document.querySelector('button').style.backgroundColor = 'green';
-        }
-    </script> -->
+    <h2>Mouse Events</h2>
+    <button id="Button1" onclick="changeColor1()">On Click Event</button>
+    <br><br>
+    <button id="Button2" onmouseover="changeColor()" onmouseout="resetColor()">On Mouse Over & On Mouse Out</button>
+    <br><br>
+    <button id="Button3" ondblclick="changeColor3()">Double Click on this Button</button>
+    <br><br>
+    <button id="Button4" onmousedown="changeColor4()">Mouse Down</button>
+    
+   
 </body>
-
-
 </html>
