@@ -23,9 +23,24 @@
 
 
 function canPlaceFlower(flowerBed,n){
+    let count = 0;
+    let i = 0;
     
+    while (i < flowerBed.length) {
+        if (flowerBed[i] === 0 && (i === 0 || flowerBed[i - 1] === 0) && (i === flowerBed.length - 1 || flowerBed[i + 1] === 0)) {
+            count++;
+            i += 2; 
+        } else {
+            i++;
+        }
+        
+        if (count >= n) {
+            return true; 
+        }
+    }
+    
+    return false; 
 }
-
 let flowerBed = [1,0,0,0,1];
 let n = 1;
 console.log(canPlaceFlower(flowerBed,n));
