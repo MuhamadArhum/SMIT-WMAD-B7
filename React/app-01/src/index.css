@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 :root {
-  --primary-color: #6ab0de; /* Soft blue */
+  --primary-color: #6ab0de; /* Soft blue   */
   --primary-dark: #4688d8;  /* Darker blue */
   --accent-color: #ff6f61;  /* Coral */
   --background-dark: #000; /* Very light gray */
