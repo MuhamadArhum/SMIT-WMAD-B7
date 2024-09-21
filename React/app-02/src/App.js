@@ -1,23 +1,36 @@
 import logo from './logo.svg';
+import Form from './Form';
+import ItemList from './ItemList';
 import './App.css';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [data, setData] = useState([])
+
+
+  useEffect(() =>{
+    setData(Form)
+  },[]);
+
+
+const handleEdit = (id) =>{
+  alert(id)
+}
+
+
+const handleDelete = (id) =>{
+  if(id > 0){
+    if(window.confirm("Are you Sure to Delete this item ?"));
+    const dt = data.filter(item => item.id !== id);
+    setData(dt);
+  }
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Form/>
+     <ItemList data={data} handleEdit={handleEdit} handleDelete={handleDelete} />
     </div>
   );
 }
