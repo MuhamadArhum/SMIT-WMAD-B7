@@ -1,34 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function ItemList({data, handleEdit,handleDelete}) {
-
-  const Data = [
-    {
-    id : 1,
-    name : 'Ali',
-    email : 'ali123@gmial.com',
-    age : 20,
-    contact : '12341224312'
-    },
-
-    {
-    id : 2,
-    name : 'Rizwan',
-    email : 'rizwan123@gmial.com',
-    age : 21,
-    contact : '22341224312'
-    },
-
-    {
-    id : 3,
-    name : 'Raza',
-    email : 'raza123@gmial.com',
-    age : 30,
-    contact : '12341554312'
-    }
-
-    
-  ]
+export default function ItemList({ data, handleEdit, handleDelete }) {
   return (
     <div className='itemlist'>
       <h3>Admitted Student List</h3>
@@ -45,7 +17,7 @@ export default function ItemList({data, handleEdit,handleDelete}) {
         </thead>
 
         <tbody>
-          {Data.map((item, index) => (
+          {data.map((item, index) => (
             <tr key={item.id}>
               <td>{index + 1}</td>
               <td>{item.name}</td>
@@ -61,5 +33,5 @@ export default function ItemList({data, handleEdit,handleDelete}) {
         </tbody>
       </table>
     </div>
-  )
+  );
 }
